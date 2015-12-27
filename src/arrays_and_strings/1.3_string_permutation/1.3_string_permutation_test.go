@@ -11,7 +11,7 @@ func TestPermutation(t *testing.T) {
 		{"the quick brown fox", "het uqkic wborn ofx", true},
 		{"ぁあぃぎじ", "じぎぃあぁ", true},
 		{"()[]", "][)(!", false},
-		{"ぁあぃぎじ", "じぎぃあぁ!", true},
+		{"ぁあぃぎじ", "じぎぃあぁ!", false},
 	}
 
 	for _, test := range tests {
